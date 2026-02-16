@@ -88,7 +88,7 @@ class AuthService {
     });
 
     if (!user) {
-      throw new Error('Invalid email or password');
+      throw new Error('Invalid email');
     }
 
     // Verify password
